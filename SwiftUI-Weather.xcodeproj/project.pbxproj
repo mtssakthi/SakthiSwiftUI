@@ -36,14 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8499E4852C4F91F200AE06AF /* SakthiSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SakthiSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8499E4852C4F91F200AE06AF /* SwiftUI-Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8499E4882C4F91F200AE06AF /* SakthiSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakthiSwiftUIApp.swift; sourceTree = "<group>"; };
 		8499E48A2C4F91F200AE06AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8499E48C2C4F91F400AE06AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8499E48F2C4F91F400AE06AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8499E4952C4F91F500AE06AF /* SakthiSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SakthiSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8499E4952C4F91F500AE06AF /* SwiftUI-WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-WeatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8499E4992C4F91F500AE06AF /* SakthiSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakthiSwiftUITests.swift; sourceTree = "<group>"; };
-		8499E49F2C4F91F500AE06AF /* SakthiSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SakthiSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8499E49F2C4F91F500AE06AF /* SwiftUI-WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-WeatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8499E4A32C4F91F500AE06AF /* SakthiSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakthiSwiftUIUITests.swift; sourceTree = "<group>"; };
 		8499E4A52C4F91F500AE06AF /* SakthiSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakthiSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8499E4B22C4FBD4700AE06AF /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
@@ -88,9 +88,9 @@
 		8499E4862C4F91F200AE06AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8499E4852C4F91F200AE06AF /* SakthiSwiftUI.app */,
-				8499E4952C4F91F500AE06AF /* SakthiSwiftUITests.xctest */,
-				8499E49F2C4F91F500AE06AF /* SakthiSwiftUIUITests.xctest */,
+				8499E4852C4F91F200AE06AF /* SwiftUI-Weather.app */,
+				8499E4952C4F91F500AE06AF /* SwiftUI-WeatherTests.xctest */,
+				8499E49F2C4F91F500AE06AF /* SwiftUI-WeatherUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8499E4842C4F91F200AE06AF /* SakthiSwiftUI */ = {
+		8499E4842C4F91F200AE06AF /* SwiftUI-Weather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8499E4A92C4F91F500AE06AF /* Build configuration list for PBXNativeTarget "SakthiSwiftUI" */;
+			buildConfigurationList = 8499E4A92C4F91F500AE06AF /* Build configuration list for PBXNativeTarget "SwiftUI-Weather" */;
 			buildPhases = (
 				8499E4812C4F91F200AE06AF /* Sources */,
 				8499E4822C4F91F200AE06AF /* Frameworks */,
@@ -148,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = SakthiSwiftUI;
+			name = "SwiftUI-Weather";
 			productName = SakthiSwiftUI;
-			productReference = 8499E4852C4F91F200AE06AF /* SakthiSwiftUI.app */;
+			productReference = 8499E4852C4F91F200AE06AF /* SwiftUI-Weather.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8499E4942C4F91F500AE06AF /* SakthiSwiftUITests */ = {
+		8499E4942C4F91F500AE06AF /* SwiftUI-WeatherTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8499E4AC2C4F91F500AE06AF /* Build configuration list for PBXNativeTarget "SakthiSwiftUITests" */;
+			buildConfigurationList = 8499E4AC2C4F91F500AE06AF /* Build configuration list for PBXNativeTarget "SwiftUI-WeatherTests" */;
 			buildPhases = (
 				8499E4912C4F91F500AE06AF /* Sources */,
 				8499E4922C4F91F500AE06AF /* Frameworks */,
@@ -166,14 +166,14 @@
 			dependencies = (
 				8499E4972C4F91F500AE06AF /* PBXTargetDependency */,
 			);
-			name = SakthiSwiftUITests;
+			name = "SwiftUI-WeatherTests";
 			productName = SakthiSwiftUITests;
-			productReference = 8499E4952C4F91F500AE06AF /* SakthiSwiftUITests.xctest */;
+			productReference = 8499E4952C4F91F500AE06AF /* SwiftUI-WeatherTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8499E49E2C4F91F500AE06AF /* SakthiSwiftUIUITests */ = {
+		8499E49E2C4F91F500AE06AF /* SwiftUI-WeatherUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8499E4AF2C4F91F500AE06AF /* Build configuration list for PBXNativeTarget "SakthiSwiftUIUITests" */;
+			buildConfigurationList = 8499E4AF2C4F91F500AE06AF /* Build configuration list for PBXNativeTarget "SwiftUI-WeatherUITests" */;
 			buildPhases = (
 				8499E49B2C4F91F500AE06AF /* Sources */,
 				8499E49C2C4F91F500AE06AF /* Frameworks */,
@@ -184,9 +184,9 @@
 			dependencies = (
 				8499E4A12C4F91F500AE06AF /* PBXTargetDependency */,
 			);
-			name = SakthiSwiftUIUITests;
+			name = "SwiftUI-WeatherUITests";
 			productName = SakthiSwiftUIUITests;
-			productReference = 8499E49F2C4F91F500AE06AF /* SakthiSwiftUIUITests.xctest */;
+			productReference = 8499E49F2C4F91F500AE06AF /* SwiftUI-WeatherUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8499E4802C4F91F200AE06AF /* Build configuration list for PBXProject "SakthiSwiftUI" */;
+			buildConfigurationList = 8499E4802C4F91F200AE06AF /* Build configuration list for PBXProject "SwiftUI-Weather" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8499E4842C4F91F200AE06AF /* SakthiSwiftUI */,
-				8499E4942C4F91F500AE06AF /* SakthiSwiftUITests */,
-				8499E49E2C4F91F500AE06AF /* SakthiSwiftUIUITests */,
+				8499E4842C4F91F200AE06AF /* SwiftUI-Weather */,
+				8499E4942C4F91F500AE06AF /* SwiftUI-WeatherTests */,
+				8499E49E2C4F91F500AE06AF /* SwiftUI-WeatherUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,12 +292,12 @@
 /* Begin PBXTargetDependency section */
 		8499E4972C4F91F500AE06AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8499E4842C4F91F200AE06AF /* SakthiSwiftUI */;
+			target = 8499E4842C4F91F200AE06AF /* SwiftUI-Weather */;
 			targetProxy = 8499E4962C4F91F500AE06AF /* PBXContainerItemProxy */;
 		};
 		8499E4A12C4F91F500AE06AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8499E4842C4F91F200AE06AF /* SakthiSwiftUI */;
+			target = 8499E4842C4F91F200AE06AF /* SwiftUI-Weather */;
 			targetProxy = 8499E4A02C4F91F500AE06AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -496,7 +496,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SakthiSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SakthiSwiftUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-Weather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUI-Weather";
 			};
 			name = Debug;
 		};
@@ -516,7 +516,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SakthiSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SakthiSwiftUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-Weather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUI-Weather";
 			};
 			name = Release;
 		};
@@ -559,7 +559,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8499E4802C4F91F200AE06AF /* Build configuration list for PBXProject "SakthiSwiftUI" */ = {
+		8499E4802C4F91F200AE06AF /* Build configuration list for PBXProject "SwiftUI-Weather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8499E4A72C4F91F500AE06AF /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8499E4A92C4F91F500AE06AF /* Build configuration list for PBXNativeTarget "SakthiSwiftUI" */ = {
+		8499E4A92C4F91F500AE06AF /* Build configuration list for PBXNativeTarget "SwiftUI-Weather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8499E4AA2C4F91F500AE06AF /* Debug */,
@@ -577,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8499E4AC2C4F91F500AE06AF /* Build configuration list for PBXNativeTarget "SakthiSwiftUITests" */ = {
+		8499E4AC2C4F91F500AE06AF /* Build configuration list for PBXNativeTarget "SwiftUI-WeatherTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8499E4AD2C4F91F500AE06AF /* Debug */,
@@ -586,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8499E4AF2C4F91F500AE06AF /* Build configuration list for PBXNativeTarget "SakthiSwiftUIUITests" */ = {
+		8499E4AF2C4F91F500AE06AF /* Build configuration list for PBXNativeTarget "SwiftUI-WeatherUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8499E4B02C4F91F500AE06AF /* Debug */,
