@@ -19,7 +19,7 @@ struct ContentView: View {
                 MainWeatherStatusView(imageName: "cloud.sun.fill", tempeature: 46)
                 Spacer()
                 Button {
-                    print("button clicked")
+                    print("button clicked on")
                     isNight.toggle()
                 }label:{
                     WeatherButtonTextView(buttonName: "Change Day time", buttonColor: isNight ? .white : . yellow, textColor: isNight ? .black : .black
